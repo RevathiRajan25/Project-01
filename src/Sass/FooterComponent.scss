@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+.footer{
+  background-color: $black;
+  height: 70px;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  color: $white;
+  align-items: center;
+}
+.footer__left{
+  font-size: 12px;
+  font-family: system-ui;
+  color: $tx-color-01;
+}
+.footer__right{
+  font-size: 12px;
+  font-family: system-ui;
+  color: $tx-color-01;
+  display: flex;
+}
+.icon_style{
+  width: 10px;
+  margin-right:5px;
+}
+.footer__icon{
+  margin-left: 5px;
+}
+@media only screen and (max-width: 700px){
+.footer{
+  display: block;
+  padding: 24px;
+  height: 50px;  
+}
+.footer__right{
+  font-size: 12px;
+  font-family: system-ui;
+  color: $tx-color-01;
+  display: flex;
+  margin: auto;
+  width: 135px;
+  margin-top: 20px;
+}
+}

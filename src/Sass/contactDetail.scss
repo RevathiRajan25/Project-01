@@ -1,0 +1,89 @@
+@import './variables.scss';
+.contactDetailContainer{
+  background-image: url(../images/ContactBG.jpg);
+  // height:400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:50px;
+}
+.contact-heading{
+  font-size: 33px;
+  color: $white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:0px;
+}
+.contact-heading-content{
+  color:$white;
+}
+.form-content{
+  display: block;
+}
+.detail-input{
+  height:30px;
+  padding-left: 5px;
+  outline: none;
+}
+.message-input{
+  margin-top: 20px;
+  height: 90px;
+  padding-left: 5px;
+  outline: none;
+}
+.submit-button{
+  margin-top:20px;
+  color: $white;
+  background-color: $bg-tx-color-01;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px 25px;
+  cursor: pointer;
+  border-radius: 17px;
+  opacity: 1;
+}
+.submit:hover{
+    opacity: 0.05;
+}
+@media only screen and (min-width: 768px){
+  .form-content{
+    margin-right:auto;
+    margin-left:auto;
+    width:48%;
+  }
+  .contactDetailInputs{
+    display: flex;
+  }
+  .detail-input{
+    margin-right: 20px;
+    width:100%
+  }
+  .nthInput{
+    margin-right: 0px
+  }
+  .message-input{
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .contact-heading{
+    padding-top: 100px;
+  }
+  .form-content{
+    width:100%;
+  }
+  .contactDetailInputs{
+    display: block;
+  }
+  .detail-input{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+    
+  }
+  .message-input{
+    width: 83%;
+  }
+}

@@ -1,0 +1,92 @@
+@import './variables.scss';
+
+.testimonial .testimonial-content{
+    margin: 20px 0 17px 0;
+    position: relative;
+    height: 200px;
+}
+.testimonial .testimonial-content:after{
+  content: "";
+  width: 1px;
+  height: 17px;
+  border-top: 22px solid $white;
+  border-left: 27px solid transparent;
+  border-right: 0px solid transparent;
+  margin-right: auto;
+  position: absolute;
+  bottom: -20px;
+  left: 42px;
+  right: 0;
+}
+.testimonial .description-container{
+    padding: 0px 35px;
+    margin: 0;
+    background: $white;
+    border-radius: 15px;
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+    border: 1px solid $border-color;
+    box-shadow: 2px 2px 3px 0 $box-shadow;
+}
+.testimonial .description{
+    height: 139px;
+    overflow: scroll;
+    font-size: 14px;
+    text-align: initial;
+    font-family: system-ui;
+    color: $tx-color-01;
+}
+.testimonial .testimonial-profile{
+  display: table;
+  border-radius: 20px;
+  position: relative;
+}
+.testimonial .pic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-bottom: 2px solid $border-color;
+  float: left;
+  overflow: hidden;
+}
+.testimonial .title{
+    display: inline-block;
+    margin: 0 0 0 11px;
+    font-size: 19px;
+    font-weight: normal;
+    color: $tx-color-02;
+    position: relative;
+    text-align: initial;
+}
+.testimonial .post{
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: $tx-color-01;
+    margin-top: 10px;
+}
+.testimonial-image{
+  width:48px;
+}
+.image{
+  width: 20px
+}
+@media only screen and (max-width: 700px){
+  .testimonial{ 
+     margin: 0px auto;
+     display: none;
+  }
+  .testimonial .testimonial-content{
+    width: 100%;
+  }
+  .testimonial:first-child{ 
+    display:block;
+ }
+}
+@media only screen and (min-width: 768px){
+  .testimonial{ 
+     margin: 0px 30px;
+     display: block;
+  }
+}

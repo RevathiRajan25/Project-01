@@ -1,0 +1,20 @@
+[
+  {
+    "clientName": "Williamson",
+    "clientPosition": "Web Developer",
+    "clientDetail": "an Indian telecom engineer, inventor and entrepreneur. He is popularly known as the Father of India's Computer and IT Revolution as he helped Prime Minister Rajiv Gandhi in bringing computerization as an advisor to the PM.[citation needed] He was also an advisor to the PM during Dr. Manmohan Singh's tenure. He was born Titlagarh in the eastern Indian state of Odisha to a Gujarati family.",
+    "clientOrg":"ORG"
+  },
+  {
+    "clientName": "Kristina",
+    "clientPosition": "Web Designer",
+    "clientDetail": "an Indian telecom engineer, inventor and entrepreneur. He is popularly known as the Father of India's Computer and IT Revolution as he helped Prime Minister Rajiv Gandhi in bringing computerization as an advisor to the PM.[citation needed] He was also an advisor to the PM during Dr. Manmohan Singh's tenure. He was born Titlagarh in the eastern Indian state of Odisha to a Gujarati family.",
+    "clientOrg":"ORG"
+  },
+  {
+    "clientName": "Steve Thomas",
+    "clientPosition": "Graphic Designer",
+    "clientDetail": "an Indian telecom engineer, inventor and entrepreneur. He is popularly known as the Father of India's Computer and IT Revolution as he helped Prime Minister Rajiv Gandhi in bringing computerization as an advisor to the PM.[citation needed] He was also an advisor to the PM during Dr. Manmohan Singh's tenure. He was born Titlagarh in the eastern Indian state of Odisha to a Gujarati family.",
+    "clientOrg":"ORG"
+  }
+]

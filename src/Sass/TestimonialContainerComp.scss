@@ -1,0 +1,31 @@
+ @import'./variables.scss';
+.testimonial-Container{
+  background-color: $bg-color-03;
+}
+.testimonial-component{
+  display: flex;
+}
+.testimonial-title{
+    color: $tx-color-02;
+    font-weight: normal;
+    font-family: system-ui;
+}
+@media only screen and (max-width: 700px){
+
+  .testimonial-Container{
+    padding: 50px 20px;
+  }
+  .testimonial-component{
+      width: 100%
+  }
+}
+@media only screen and (min-width: 768px){
+  .testimonial-Container{
+    padding: 50px;
+  }
+  .testimonial-component{
+    margin: 0px auto;
+    width: 80%;
+    overflow: scroll;
+  }
+}
